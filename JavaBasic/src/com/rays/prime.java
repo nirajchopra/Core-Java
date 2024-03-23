@@ -2,7 +2,7 @@ package com.rays;
 
 public class prime {
 	public static void main(String args[]) {
-		int num = 7;
+		int num = 12;
 		int count = 0;
 
 		for (int i = 2; i < num; i++) {

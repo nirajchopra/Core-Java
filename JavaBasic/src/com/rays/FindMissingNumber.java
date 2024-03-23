@@ -2,8 +2,8 @@ package com.rays;
 
 public class FindMissingNumber {
 	public static void main(String args[]) {
-		int a [] = {4, 8, 12, 16, 20};
-		int b [] = {4, 8, 12, 16, 20, 24};
+		int a [] = {20,10,50,60};
+		int b [] = {20,10,50,60,70};
 		
 		int suma = 0;
 		int sumb = 0;

@@ -4,10 +4,10 @@ public class Swapping {
 	public static void main(String args[]) {
 		int a = 5;
 		int b = 7;
-		int temp = 0;
-		temp = a;
+		int c = 0;
+		c = a;
 		a = b;
-		b = temp;
+		b = c;
 		System.out.println(a);
 		System.out.println(b);
 	}
