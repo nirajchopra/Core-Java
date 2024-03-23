@@ -3,7 +3,7 @@ package com.rays;
 public class MultiDimensionalArray {
 	public static void main(String args[]) {
 		//10 rows and 2 columns
-		int [][] table = new int[10][2];
+		int [][] table = new int[7][2];
 		//Add values in column 1.
 		table[0][0]=2;
 		table[1][0]=4;
