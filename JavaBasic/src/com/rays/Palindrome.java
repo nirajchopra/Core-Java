@@ -2,7 +2,7 @@ package com.rays;
 
 public class Palindrome {
 	public static void main(String args[]) {
-		int num = 151;
+		int num = 15251;
 		int temp = num ;
 		int sum =0;
 		while(num > 0) {

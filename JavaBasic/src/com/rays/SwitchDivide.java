@@ -17,7 +17,8 @@ public class SwitchDivide {
 			break;
 			default:
 				System.out.println("Error");
-		}
+				break;
+		}  
 	}
 
 }

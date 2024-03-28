@@ -11,6 +11,9 @@ public class SwitchCases {
 		case "Chopra":
 			System.out.println("Surname");
 			break;
+		case "Rahadkot":
+			System.out.println("Village");
+			break;
 			default:
 				System.out.println("Nothing else");
 				break;
