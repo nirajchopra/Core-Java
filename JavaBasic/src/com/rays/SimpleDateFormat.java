@@ -13,7 +13,7 @@ public class SimpleDateFormat {
 		
 	}
 
-	private String format(Date d) {
+	String format(Date d) {
 		// TODO Auto-generated method stub
 		return null;
 	}

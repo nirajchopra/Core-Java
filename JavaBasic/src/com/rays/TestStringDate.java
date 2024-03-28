@@ -1,13 +1,21 @@
 package com.rays;
 
-public class TestStringDate {
-	public static void main(String[] args) {
-		String d = "28/03/2024";
-		SimpleDateFormat sdf = new SimpleDateFormat();
-		Date s = sdf.parse(s);
-		System.out.println(s);
-	}
-	
-	
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
+public class TestStringDate {
+    public static void main(String[] args) throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+        String dateString = "25/01/2001";
+
+        Date date = sdf.parse(dateString);
+
+        System.out.println(date + " (String To date)");
+
+        String stringDate = sdf.format(date);
+
+        System.out.println(stringDate + " (date To String)");
+    }
 }
