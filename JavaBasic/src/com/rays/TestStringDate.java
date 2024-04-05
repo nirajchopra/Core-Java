@@ -8,7 +8,7 @@ public class TestStringDate {
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-        String dateString = "25/01/2001";
+        String dateString = "01/04/2024";
 
         Date date = sdf.parse(dateString);
 

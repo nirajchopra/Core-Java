@@ -8,7 +8,7 @@ public class CountAccuranceOfChar {
 			char ch = name.charAt(i);
 			String m = String.valueOf(ch);
 			
-			if (m.matches("c")) {
+			if (m.matches("o")) {
 				count++;
 			}
 		}

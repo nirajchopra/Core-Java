@@ -2,7 +2,10 @@ package com.rays;
 
 public class ArmstrongNumber {
 	public static void main(String[] args) {
-
+/*An Armstrong number (also known as narcissistic number or plenary number)
+ * is a number that is equal to the sum of its own digit raised to the power of
+ * the number of digits.
+ */
 		int num = 153;
 		int temp = 0;
 		int num2 = num;
