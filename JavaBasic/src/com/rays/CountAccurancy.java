@@ -2,7 +2,7 @@ package com.rays;
 
 public class CountAccurancy {
 	public static void main(String[] args) {
-		String name = "nikunj";
+		String name = "viajy dinanath chouhan";
 		int count = 0;
 		for(char a='a'; a<='z'; a++) {
 			for(int i=0; i<name.length(); i++) {
