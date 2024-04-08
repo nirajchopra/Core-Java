@@ -6,7 +6,7 @@ public class ArmstrongNumber {
  * is a number that is equal to the sum of its own digit raised to the power of
  * the number of digits.
  */
-		int num = 153;
+		int num = 371;
 		int temp = 0;
 		int num2 = num;
 		int r = 0;

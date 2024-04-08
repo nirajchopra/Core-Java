@@ -4,8 +4,15 @@ import java.util.Arrays;
 
 public class Anagram{
 	public static void main(String[] args) {
-		String str1 = "listen";
-		String str2 =  "silent";
+		/*An anagram is a word or phrase formed by rearranging the
+		 * letters of another word or phrases.
+		 * Example:
+		 * Original words: "listen", "astronomer", "triangle", "funeral".
+		 * Anagram words:  "silent", "moonstarer", "integral", "funreal".
+		 */
+		
+		String str1 = "astronomer";
+		String str2 =  "moonstarer";
 		char str;
 		
 		char[] ch = str1.toCharArray();

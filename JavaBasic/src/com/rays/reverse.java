@@ -1,6 +1,6 @@
 package com.rays;
 
-public class reverse {
+public class Reverse {
 	public static void main(String args[]) {
 		int num = 876;
 		int rev = 0;

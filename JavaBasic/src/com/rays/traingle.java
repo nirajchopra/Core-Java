@@ -1,6 +1,6 @@
 package com.rays;
 
-public class traingle {
+public class Traingle {
 	public static void main(String args[]) {
 		int n = 4;
 		for(int i = 1; i <= n; i++) {

@@ -1,7 +1,5 @@
 package com.rays;
 
-import java.util.*;
-
 public class Concatenation {
 	public static void main(String args[]) {
 		String s1 = "Niraj";

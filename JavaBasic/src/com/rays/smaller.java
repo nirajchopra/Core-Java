@@ -1,6 +1,6 @@
 package com.rays;
 
-public class smaller {
+public class Smaller {
 	public static void main(String args[]) {
 		int a = 17;
 		int b = 51;

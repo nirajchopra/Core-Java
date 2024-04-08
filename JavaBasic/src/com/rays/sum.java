@@ -1,6 +1,6 @@
 package com.rays;
 
-public class sum {
+public class Sum {
 	public static void main(String args[]) {
 		int num = 0;
 		for(int i = 100; i<200; i++) {

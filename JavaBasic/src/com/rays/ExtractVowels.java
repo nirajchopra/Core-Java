@@ -3,7 +3,6 @@ package com.rays;
 public class ExtractVowels {
 	public static void main(String[] args) {
 		String str = "OOUOTFYTDZESXkhiuiopihutigda";
-		String str1 = str.toLowerCase();
 		int count = 0;
 		for(int i=0; i<str.length(); i++) {
 			char c = str.charAt(i);

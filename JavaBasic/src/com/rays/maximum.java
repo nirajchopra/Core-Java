@@ -1,6 +1,6 @@
 package com.rays;
 
-public class maximum {
+public class Maximum {
 	public static void main(String args[]) {
 		int a = 17;
 		int b = 51;
