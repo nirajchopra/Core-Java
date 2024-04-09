@@ -13,7 +13,12 @@ public class SimpleDateFormat {
 		
 	}
 
-	String format(Date d) {
+	public String format(Date d) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object parse(String str) {
 		// TODO Auto-generated method stub
 		return null;
 	}

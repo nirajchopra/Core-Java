@@ -1,12 +1,12 @@
-package com.rays;
+package com.rays.exercise;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class TestStringDate {
-    public static void main(String[] args) throws ParseException {
+public class TestCalendar {
+public static void main(String[] args) throws ParseException {
     	
     	Date d = new Date();
     	
@@ -30,4 +30,5 @@ public class TestStringDate {
 
         System.out.println(stringDate + " (date To String)");
     }
+
 }
