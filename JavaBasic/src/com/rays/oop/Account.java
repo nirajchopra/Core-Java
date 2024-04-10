@@ -1,34 +1,33 @@
 package com.rays.oop;
 
 public class Account {
-	private String accountNumber;
+    private String accountNumber;
 
-	public String getAccountNumber() {
-		return accountNumber;
-	}
+    public String getAccountNumber() {
+        return accountNumber;
+    }
 
-	public void setAccountNumber(String accountNumber) {
-		this.accountNumber = accountNumber;
-	}
-	
-	private String accountType;
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+    
+    private String accountType;
 
-	public String getAccountType() {
-		return accountType;
-	}
+    public String getAccountType() {
+        return accountType;
+    }
 
-	public void setAccountType(String accountType) {
-		this.accountType = accountType;
-	}
-	
-	public String balance;
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
+    }
+    
+    private double balance; // Changed to double
 
-	public String getBalance() {
-		return balance;
-	}
+    public double getBalance() {
+        return balance;
+    }
 
-	public void setBalance(String balance) {
-		this.balance = balance;
-	}
-
+    public void setBalance(double balance) { // Changed parameter type to double
+        this.balance = balance;
+    }
 }
