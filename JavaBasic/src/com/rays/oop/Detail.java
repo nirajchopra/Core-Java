@@ -2,6 +2,13 @@ package com.rays.oop;
 
 public class Detail {
 	private String name;
+	private String surname;
+	public String getSurname() {
+		return surname;
+	}
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
 	private String Address;
 	private long contact;
 	public int AVG_AGE;
