@@ -11,6 +11,7 @@ public class TestArrayIndex {
 			System.out.println("arr: " + arr[7]);
 			
 		}catch (Exception e) {
+			
 			System.out.println("exception: " + e );
 			
 		}
