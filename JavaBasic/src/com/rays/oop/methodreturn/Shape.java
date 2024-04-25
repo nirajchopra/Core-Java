@@ -20,4 +20,10 @@ public class Shape {
 		return new Shape();
 	}
 
+	public void calculateArea() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 }
