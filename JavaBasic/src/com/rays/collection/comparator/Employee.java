@@ -31,10 +31,8 @@ public class Employee implements Comparable<Employee> {
 
 	@Override
 	public int compareTo(Employee o) {
-		if(this.name == o.name) {
-			return this.salary - o.salary;
-		}
-		return this.id-o.id;
+		
+		return this.salary-o.salary;
 	}
 	
 	public String toString() {

@@ -17,8 +17,8 @@ public class TestComparator {
 		
 		//Collections.sort(list);
 		
-		//Collections.sort(list, new OrderByIdAsc());
-		Collections.sort(list, new OrderByIdDesc());
+		Collections.sort(list, new OrderByIdAsc());
+		//Collections.sort(list, new OrderByIdDesc());
 
 		
 		for(Object object : list) {

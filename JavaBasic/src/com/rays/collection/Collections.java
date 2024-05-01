@@ -30,6 +30,13 @@ public class Collections {
 		
 	}
 
+	public static void shuffle(List<String> e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
 	
 
 }
