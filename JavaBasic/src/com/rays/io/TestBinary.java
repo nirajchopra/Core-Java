@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 public class TestBinary {
 	public static void main(String[] args) throws Exception {
 		
-		FileInputStream in = new FileInputStream("C:\\Users\\LZ\\Desktop\\photo.jpg");
+		FileInputStream in = new FileInputStream("C:\\Users\\LZ\\Desktop\\codingwallpaper.jpg");
 		FileOutputStream out = new FileOutputStream("C:\\Users\\LZ\\Desktop\\IO\\nrc.jpg");
 		
 		int ch = in.read();
