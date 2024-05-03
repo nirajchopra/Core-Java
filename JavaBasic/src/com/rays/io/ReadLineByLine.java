@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ReadLineByLine {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 		
 		FileReader file = new FileReader("C:\\Users\\LZ\\Desktop\\IO\\niraj.txt");
 		BufferedReader in = new BufferedReader(file);
